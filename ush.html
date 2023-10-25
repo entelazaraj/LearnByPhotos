@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <h1 style="background-color:powderblue;">This is a heading</h1>
+</head>
+<body>
+    <div id="text1">
+        <h2>LearnByPhotos</h2>
+        <p>Here you can upload a photo and write a text, then by clicking the photo you can listen the text</p>
+      </div> 
+    <div id="imageGrid">
+        <div class="imageContainer">
+            <input type="file" id="fileInput1" onchange="previewImage(event, 'imagePreview1')" />
+            <img id="imagePreview1" src="#" alt="Image preview" style="display: none;" />
+            <textarea id="textInput1" placeholder="Enter your text here"></textarea>
+        </div>
+        <!-- Add similar container divs for the other grid cells -->
+        <!-- Add 19 more similar container divs for a 5x4 grid -->
+        <div id="imageGrid">
+            <div class="imageContainer">
+                <input type="file" id="fileInput1" onchange="previewImage(event, 'imagePreview1')" />
+                <img id="imagePreview1" src="#" alt="Image preview" style="display: none;" />
+                <textarea id="textInput1" placeholder="Enter your text here"></textarea>
+        </div>
+        <div id="imageGrid">
+            <div class="imageContainer">
+                <input type="file" id="fileInput1" onchange="previewImage(event, 'imagePreview1')" />
+                <img id="imagePreview1" src="#" alt="Image preview" style="display: none;" />
+                <textarea id="textInput1" placeholder="Enter your text here"></textarea>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
